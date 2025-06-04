@@ -17,10 +17,10 @@ This project leverages **YouTube Data API**, **natural language processing**, an
 ## 📷 Preview
 
 <p align="center">
-  <img src="graph/sentiment_smanalyzer.png" width="400" alt="Sentiment Distribution">
-  <img src="graph/clustering_smanalyzer.png" width="400" alt="User Clustering">
-  <img src="graph/pearson_smanalyzer.png" width="400" alt="Pearson Correlation">
-  <img src="graph/positivity_smanalyzer.png" width="400" alt="Positivity Trend">
+  <img src="social-media-analyzergraph/sentiment_smanalyzer.png" width="400" alt="Sentiment Distribution">
+  <img src="social-media-analyzergraph/graph/clustering_smanalyzer.png" width="400" alt="User Clustering">
+  <img src="social-media-analyzergraph/graph/pearson_smanalyzer.png" width="400" alt="Pearson Correlation">
+  <img src="social-media-analyzergraph/graph/positivity_smanalyzer.png" width="400" alt="Positivity Trend">
 </p>
 
 ---
