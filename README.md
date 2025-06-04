@@ -59,7 +59,7 @@ You can run the analysis locally with Jupyter or directly in Deepnote.
 ---
 
 ## 📁 Project Structure
-
+<pre>
 social-media-analyzer/
 │
 ├── notebook/
@@ -78,7 +78,7 @@ social-media-analyzer/
 ├── .gitignore
 ├── README.md
 └── LICENSE
-
+</pre>
 ---
 
 ## 📦 Tech Stack
