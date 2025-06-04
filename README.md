@@ -95,7 +95,7 @@ social-media-analyzer/
 
 ---
 
-## 📄📄 Presentation
+## 📄 Presentation
 Want a deep dive?
 Check out the [presentation (PDF)](social-media-analyzer/presentation/presentation_SocialMediaAnalyzer.pdf) for a complete breakdown of methods and results.
 
