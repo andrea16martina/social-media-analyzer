@@ -97,7 +97,7 @@ social-media-analyzer/
 
 ## 📄📄 Presentation
 Want a deep dive?
-Check out the [presentation (PDF)](./presentation/presentation_SocialMediaAnalyzer.pdf) for a complete breakdown of methods and results.
+Check out the [presentation (PDF)](.social-media-analyzer/presentation/presentation_SocialMediaAnalyzer.pdf) for a complete breakdown of methods and results.
 
 ---
 
@@ -113,7 +113,7 @@ If you found this project useful or inspiring, feel free to ⭐ star the repo an
 ---
 
 ## 📜 License
-This project is licensed under the MIT License — see the [License](./LICENSE)file for details.
+This project is licensed under the MIT License — see the [License](./LICENSE) file for details.
 
 
 
