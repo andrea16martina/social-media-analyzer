@@ -1,0 +1,11 @@
+google-api-python-client
+networkx
+requests
+numpy
+python-louvain
+feel-it
+pandas
+seaborn
+matplotlib
+nltk
+python-dateutil
