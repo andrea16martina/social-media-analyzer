@@ -106,7 +106,6 @@ Check out the [presentation (PDF)](social-media-analyzer/presentation/presentati
 **Andrea Martina**  
 Computer Science for Digital Communication graduate  
 🌐 [GitHub](https://github.com/andrea16martina) | [LinkedIn](https://linkedin.com/in/andmar-7137a41aa)  
-📧 andreamartina.dev@gmail.com
 
 If you found this project useful or inspiring, feel free to ⭐ star the repo and connect!
 
