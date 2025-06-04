@@ -12,6 +12,11 @@ This project leverages **YouTube Data API**, **natural language processing**, an
 
 > ✨ From raw comments to structured insights — with a touch of AI.
 
+
+> ⚠️ **Note:** This project can be used on any YouTube channel or playlist by updating the respective IDs in the code.  
+> The channel and playlist included here are solely for demonstration purposes.
+
+
 ---
 
 ## 📷 Preview
