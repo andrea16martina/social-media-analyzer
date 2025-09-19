@@ -1,25 +1,24 @@
-# 🔍 Social Media Analyzer
+# Social Media Analyzer
 
-**AI-powered analysis of YouTube comments** — uncover sentiment, detect emotions, reveal audience clusters and visualize insights through data mining and machine learning.
+Live demo (Deepnote): [Open in Deepnote](https://deepnote.com/workspace/Social-Media-Mining-Project-7ea5d0be-1b39-4e39-aa40-6413790a6c36/project/Social-Media-Analyzer-Project-to-Analyze-Youtube-Channel-1c0129d4-1c28-4a60-b6a1-1e26bf403598/notebook/Project-14b36c05d5ef42a79c6f1ea232d6936a)
 
-[![Deepnote](https://img.shields.io/badge/Open%20in-Deepnote-blue?logo=deepnote&style=flat-square)](https://deepnote.com/workspace/Social-Media-Mining-Project-7ea5d0be-1b39-4e39-aa40-6413790a6c36/project/Social-Media-Analyzer-Project-to-Analyze-Youtube-Channel-1c0129d4-1c28-4a60-b6a1-1e26bf403598/notebook/Project-14b36c05d5ef42a79c6f1ea232d6936a)
+## Overview
 
----
+Social Media Analyzer is a data mining and NLP project for analyzing YouTube video comments.  
+It extracts raw comments via the YouTube Data API, processes them with natural language processing pipelines, and applies sentiment/emotion classification and clustering.  
+The results are presented through correlation graphs, sentiment distributions, and trend visualizations.
 
-## 📌 Overview
+The project is notebook-based and intended as a reference for exploring audience engagement and discourse patterns.
 
-This project leverages **YouTube Data API**, **natural language processing**, and **graph-based clustering** to explore the hidden patterns behind user comments on YouTube.
+## Key features
 
-> ✨ From raw comments to structured insights — with a touch of AI.
+- Automated extraction of YouTube comments (via YouTube Data API)  
+- Sentiment and emotion classification using [Feel-IT](https://github.com/MilaNLProc/feel-it)  
+- Community detection with Louvain clustering (NetworkX + python-louvain)  
+- Visualization of correlations, sentiment distribution, clustering and trends  
+- Preprocessing with NLTK (tokenization, stopword removal)
 
-
-> ⚠️ **Note:** This project can be used on any YouTube channel or playlist by updating the respective IDs in the code.  
-> The channel and playlist included here are solely for demonstration purposes.
-
-
----
-
-## 📷 Preview
+## Preview
 
 <p align="center">
   <img src="social-media-analyzer/graph/pearson_smanalyzer.png" width="400" alt="Pearson Correlation">
@@ -28,98 +27,46 @@ This project leverages **YouTube Data API**, **natural language processing**, an
   <img src="social-media-analyzer/graph/positivity_smanayzer.png" width="400" alt="Positivity Trend">
 </p>
 
----
 
-## 🧠 Features
+## Architecture notes
 
-- ✅ Automatic extraction of YouTube video comments  
-- 🎯 Sentiment & emotion classification (using [Feel-IT](https://github.com/MilaNLProc/feel-it))  
-- 🧩 Community detection via Louvain clustering  
-- 📊 Visual analytics and data dashboards  
-- 💬 NLP preprocessing with NLTK
+- Data ingestion via YouTube Data API v3.  
+- NLP preprocessing with NLTK.  
+- Sentiment/emotion classification powered by Feel-IT.  
+- Graph-based community detection implemented with Louvain clustering.  
+- Visualizations with Matplotlib/Seaborn.  
+- Workflows run inside Jupyter or Deepnote notebooks.
 
----
+## Local setup
 
-## 🚀 Quick Start
+Requirements: Python 3.9+, pip
 
-### 1. Clone the repository
+Clone and install:
+
 ```bash
 git clone https://github.com/andrea16martina/social-media-analyzer.git
 cd social-media-analyzer
-```
-### 2. Set up environment
-Install required packages:
-```bash
 pip install -r requirements.txt
 ```
-Download NLTK resources:
+
+Download NLTK resources
+
 ```python
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 ```
-3. Launch the notebook
-You can run the analysis locally with Jupyter or directly in Deepnote.
 
----
+Run analysis locally in Jupyter, or open directly in Deepnote using the link above.
 
-## 📁 Project Structure
-<pre>
-social-media-analyzer/
-│
-├── notebook/
-│   └── analyzer.ipynb
-│
-├── presentation/
-│   └── presentation_SocialMediaAnalyzer.pdf
-│
-├── graph/
-│   ├── pearson_smanalyzer.png
-│   ├── sentiment_smanalyzer.png
-│   ├── positivity_smanalyzer.png
-│   └── clustering_smanalyzer.png
-│
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── LICENSE
-</pre>
----
+## Suggested next steps
 
-## 📦 Tech Stack
+- Extend support to multiple languages beyond Italian (Feel-IT default).
+- Add parameterization for reusable workflows (notebook → script/module).
+- Improve visualizations with interactive dashboards (Plotly, Streamlit).
+- Add unit tests for data preprocessing functions.
 
-| Category        | Tools & Libraries                                                                 |
-|----------------|-------------------------------------------------------------------------------------|
-| **Language**    | Python                                                                             |
-| **APIs**        | [YouTube Data API](https://developers.google.com/youtube/v3)                      |
-| **NLP**         | [NLTK](https://www.nltk.org/), [Feel-IT](https://github.com/MilaNLProc/feel-it)  |
-| **Graph & Clustering** | [NetworkX](https://networkx.org/), [python-louvain](https://github.com/taynaud/python-louvain) |
-| **Visualization** | Matplotlib, Seaborn                                                              |
-| **Data Handling** | Pandas, NumPy                                                                    |
-| **Dev Tools**   | Git, Deepnote                                                                      |
+## Contact & License
 
----
-
-## 📄 Presentation
-Want a deep dive?
-Check out the [presentation (PDF)](social-media-analyzer/presentation/presentation_SocialMediaAnalyzer.pdf) for a complete breakdown of methods and results.
-
----
-
-## 👤 Author
-
-**Andrea Martina**  
-Computer Science for Digital Communication graduate  
-🌐 [GitHub](https://github.com/andrea16martina) | [LinkedIn](https://linkedin.com/in/andmar-7137a41aa)  
-
-If you found this project useful or inspiring, feel free to ⭐ star the repo and connect!
-
----
-
-## 📜 License
-This project is licensed under the MIT License — see the [License](./LICENSE) file for details.
-
-
-
-
-
+Author: [Andrea Martina](https://andreamartina.vercel.app)
+License: MIT
